@@ -1,0 +1,24 @@
+# Datos: se descargan con `python src/download.py`, no se versionan
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Entorno / editor
+.env
+.vscode/
+.idea/
+.claude/
+.DS_Store
