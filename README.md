@@ -51,7 +51,7 @@ paneles, sino **almacenamiento y transmisión**.
 ## Reproducir el análisis
 
 ```bash
-git clone https://github.com/<tu-usuario>/eda-transicion-energetica-chile.git
+git clone https://github.com/Danvargast/eda-transicion-energetica-chile.git
 cd eda-transicion-energetica-chile
 
 python -m venv .venv && source .venv/bin/activate
